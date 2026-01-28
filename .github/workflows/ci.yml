@@ -32,5 +32,4 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        # If you have a test file (e.g., test_app.py), it runs here
-        pytest
+        python -m pytest
